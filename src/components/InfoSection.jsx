@@ -17,13 +17,11 @@ function InfoSection() {
       <div className="md:col-span-1">
         <div className="max-w-lg md:max-w-none">
           <h2 className="text-2xl font-semibold text-gray-900 sm:text-3xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Start exploring now and drive away in your perfect car!
           </h2>
 
           <p className="mt-4 text-gray-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloremque saepe
-            architecto maiores repudiandae amet perferendis repellendus, reprehenderit voluptas
-            sequi.
+          At car-MarketPlace, we connect buyers and sellers with ease. Browse through a wide range of vehicles, from new arrivals to trusted pre-owned cars. Find exactly what you need with a simple, user-friendly experience.
           </p>
         </div>
       </div>
