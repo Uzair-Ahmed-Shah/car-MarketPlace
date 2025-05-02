@@ -11,6 +11,7 @@ import { Button } from '@/components/ui/button'
 import { useState } from 'react';
 import {CarListing} from "./../../configs/schema"
 import {db} from "./../../configs"
+import UploadImages from './components/UploadImages';
 
 
 function AddListing() {
@@ -86,6 +87,11 @@ function AddListing() {
               ))}
             </div>
           </div>
+
+          <Separator className="my-6"></Separator>
+
+          <UploadImages />
+
           <div className='flex mt-10 justify-end'>
             <Button type = "submit" onClick={(e) => onSubmit(e)}>Submit</Button>
           </div>
