@@ -19,7 +19,14 @@ function Header() {
         <li className= "font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary">Used</li>
       </ul>
 
-      {isSignedIn?
+      <div className = "flex items-center gap-5">
+            <UserButton/>
+            <Link to='/profile'>
+                <Button>Submit Listing</Button>
+            </Link>
+        </div>
+
+      {/* {isSignedIn?
         <div className = "flex items-center gap-5">
             <UserButton/>
             <Link to='/profile'>
@@ -33,7 +40,7 @@ function Header() {
         
         </div>
 
-      }
+      } */}
     </div>
   )
 }
