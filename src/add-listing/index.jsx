@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '@/components/Header'
 import carDetails from './../Shared/carDetails.json'
-import InputField from './components/inputField';
+import InputField from './components/InputField';
 import DropdownField from './components/DropdownField';
 import TextAreaField from './components/TextAreaField';
 import { Separator } from '@/components/ui/separator';
